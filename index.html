@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>build a webpage using bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" >
+
+</head>
+
+
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" width="80px"/>  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#destination" >Destination</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link " href="#about">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item " href="#">🚕 Book a Ride</a></li>
+            <li><a class="dropdown-item " href="#">📄 My Bookings</a></li>
+            <li><a class="dropdown-item ">🕒Trip History</a></li>
+            <li><a class="dropdown-item " href="#">📞 Support</a></li>
+          </ul>
+        </li>
+       
+      </ul text-white>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search " placeholder="Search " aria-label="Search text-white"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--carousel-->
+<center>
+<div id="carouselExampleIndicators" class="carousel slide">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        
+      <img src="place1.webp" class="d-block" w-50 h-30 alt="travel">
+    </div>
+    
+     <div class="carousel-item">
+    <img src="travel4.jpg" class="d-block" w-50 h-30 alt="travel"></div>
+       <div class="carousel-item">
+      <img src="travel6.jpg" class="d-block" w-60 h-2 alt="travel">
+      </div>
+
+
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</center>
+
+<!--main container-->
+<div class="container">
+    <h1 class="text-center p-5 mb-5 mt-5">Travel With Best Rides.</h1>
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+        <p> The Smart Travel Booking UI is designed to provide users with a simple, fast, and user-friendly way to plan and book their travel. The interface allows users to enter their source city, destination city, travel date, trip type, and number of passengers in an organized form. A clean navigation bar and dropdown options help users access features like booking rides, viewing bookings, and checking trip history easily. The modern layout, clear buttons, and responsive design improve usability and make the website feel professional and reliable. This UI focuses on enhancing user experience by reducing complexity and making travel booking quick and convenient.</p>
+        <button type="button" class="btn btn-primary btn-lg">Book Your Ride</button>
+
+    </div>
+    <h2 id="destination" class="fs-1 p-5 mt-5 mb-5 text-center"></h2>
+    <div class="row">
+        <div class="col">
+        
+  <
+  <!--card 1-->
+   <div class="card" style="width: 20rem;">
+  <img src="bangalore.jpg" class="card-img-top" alt="bengaluru">
+  <div class="card-body">
+    <h5 class="card-title"><b>Bangalore City Rides</b></h5>
+    <p class="card-text">Enjoy seamless and comfortable rides across Bangalore with our smart travel service. Whether you’re commuting to work, exploring tech hubs, or visiting popular city spots, our trusted drivers ensure safe, on-time, and affordable travel every time.</p>
+    <a href="#" class="btn btn-primary">Reserve Your Rides</a>
+  </div>
+  <!--card2-->
+  <div class="card" style="width: 20rem;">
+  <img src="bangalore2.jpg" class="card-img-top" alt="bengaluru">
+  <div class="card-body">
+    <h5 class="card-title"><b>Explore Rides</b></h5>
+    <p class="card-text"> Schedule your ride instantly or plan for later and get going hassle-free.</p>
+    <a href="#" class="btn btn-primary">Find Your Ride</a>
+  </div>
+  <!--card3-->
+  <div class="card" style="width: 20rem;">
+  <img src="bang3.jpg" class="card-img-top" alt="bengaluru">
+  <div class="card-body">
+    <h5 class="card-title"><b>View Routes and Maps</b></h5>
+    <p class="card-text"> “Check routes, estimated travel times, and directions to reach your destination efficiently and comfortably.”.</p>
+    <a href="#" class="btn btn-primary">Check Maps</a>
+  </div>
+
+
+
+        </div>
+    </div>
+</div>
+<!--About-->
+     <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">About</h2>
+      <div class="w-100 bg-dark-subtle p-5 mb-5 mt-5 ">
+        <p>
+            Smart Travel is your intelligent companion for seamless and stress-free journeys. Designed with a user-friendly interface, our platform helps travelers plan, organize, and enhance every trip with ease. From personalized recommendations and real-time updates to intuitive navigation and smart booking options, Smart Travel brings convenience and efficiency to your fingertips. Whether you’re exploring new destinations or managing frequent travel, our goal is to make every journey smarter, simpler, and more enjoyable.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">BOOK YOUR TRIP NOW</button>
+    </div>
+     <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">Contact Us</h2>
+
+<div class="w-100 bg-dark-subtle p-5 mb-5 mt-5 text-center">
+  <p class="mb-4">
+    We’d love to hear from you! Reach out to us for any queries, support, or travel tips.  
+    Our team is ready to help you plan your next adventure.
+  </p>
+
+  <p>
+    <strong>Email:</strong>smarttravel@gmail.com <br>
+    <strong>Phone:</strong> +91 8222222111<br>
+    <strong>Address:</strong> 123 Travel Lane, City, Country
+  </p>
+
+  <button type="button" class="btn btn-primary btn-lg mt-3">
+    BOOK YOUR TRIP NOW
+  </button>
+</div>
+<h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center"><b>Travel Smartly,Not Hardly.</b></h2>
+      <div class="row">
+        <div class="col-6">
+            <div class="bg-dark text-white p-5 mt-5 mb-5">
+                <h2>⭐Reviews</h2>
+            <p>Read genuine reviews and ratings from fellow travelers to make confident and informed travel decisions.</p>
+            </div>
+        </div>
+         <div class="col-6">
+            <div class="bg-dark text-white p-5 mt-5 mb-5">
+                <h2>💰Smart Budgeting</h2>
+            <p> Plan your journey efficiently with smart budgeting tools that help you track expenses and save money while traveling./p>
+            </div>
+        </div>
+         <div class="col-6">
+            <div class="bg-dark text-white p-5 mt-5 mb-5">
+                <h2>✅Smart Destination</h2>
+            <p>Discover the best travel destinations based on your interests, trends, and real-time insights for a smarter travel experience.!</p>
+            </div>
+        </div>
+         <div class="col-6">
+            <div class="bg-dark text-white p-5 mt-5 mb-5">
+                <h2>🎯Personalized Trips</h2>
+            <p> Get travel plans customized just for you, tailored to your preferences, budget, and travel style.</p>
+            </div>
+        </div>
+      </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
